@@ -1,4 +1,4 @@
-const PORT = process.env.port || 8000;
+const PORT = process.env.PORT || 8000;
 const {Pool} = require('pg')
 
 const pool = new Pool ({
